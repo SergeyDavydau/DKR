@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    url: 'jdbc:postgresql://localhost:5432/dkr?currentSchema=dkr'
+    driver-class-name: 'org.postgresql.Driver'
+    username: 'postgres'
+    password: 'ENC(YvZ4T5SI7Yz2JOGYrOKB6w==)'
+  jpa:
+    show-sql: 'true'
+    hibernate:
+      ddl-auto: create-drop
+jasypt:
+  encryptor:
+    password: 'dDrLNp4lz6vJ'
+
+
